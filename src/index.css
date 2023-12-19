@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 64px;
+}
+
+
+
+
+.navbar-flex {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: pink;
+
+  border-bottom: 2px solid black;
+}
+
+.navbar-img {
+  width: 150px;
+  height: 150px;
+
+  margin: 10px 50px;
+}
+
+.navbar-title1 {
+  color: #00FFFF;
+  text-shadow: 0px 0px 3px black;
+
+  margin-left: 20px;
+}
+
+.navbar-title2 {
+  color: white;
+  font-size: 50px;
+  text-shadow: 0px 0px 4px black;
+
+  margin: auto 50px auto 0px;
+}
+
+
+
+
+.mainContent {
+  background-color: #00FFFF;
+
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: 100px;
+  padding-left: 50px;
+
+  background-image: url("./images/chopper.png");
+  background-repeat: no-repeat;
+  background-position: 115% -10%;
+}
+
+.mainContent-title {
+  font-size: 45px;
+  
+  color: white;
+  text-shadow: 0px 0px 4px black;
+}
+
+.mainContent-title > span {
+  border-bottom: 5px solid pink;
+}
+
+.mainContent-items {
+  font-size: 40px;
+
+  color: pink;
+  text-shadow: 0px 0px 3px black;
+}
+
+.mainContent-items > li {
+  margin-left: 50px;
+}
+
+.mainContent-items > li::marker {
+  font-size: 2.5rem;
+  color: rgb(233, 196, 129);
+}
